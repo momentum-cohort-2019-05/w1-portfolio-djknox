@@ -16,16 +16,16 @@ Your site does not have to have the same layout as these wireframes, but they ar
 
 ### Mobile
 
-![mobile home page](mobile-home-page.png)
+![mobile home page](mockups/mobile-home-page.png)
 
-![mobile projects](mobile-projects.png)
+![mobile projects](mockups/mobile-projects.png)
 
-![mobile resumé](mobile-resume.png)
+![mobile resumé](mockups/mobile-resume.png)
 
 ### desktop
 
-![desktop home page](desktop-home-page.png)
+![desktop home page](mockups/desktop-home-page.png)
 
-![desktop projects](desktop-projects.png)
+![desktop projects](mockups/desktop-projects.png)
 
-![desktop resumé](desktop-resume.png)
+![desktop resumé](mockups/desktop-resume.png)
