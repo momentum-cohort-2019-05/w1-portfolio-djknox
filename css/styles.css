@@ -1,24 +1,31 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
 html, body {
     height: 100%;
 }
 body {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
 }
 header {
+    background-color: #a1d1f8;
+    border-bottom: 0.01rem solid #9e9e9e;
     text-align: center;
-    margin: 1rem 0 2rem 0;
+    padding: 0.5rem 0 0.5rem 0;
 }
 nav {
     margin-top: 0.5rem;
 }
 main {
     flex: 1 0 auto;
+    margin: 0 3rem 0 3rem;
+}
+a {
+    text-decoration: none;
 }
 h1 {
     text-align: center;
@@ -27,14 +34,22 @@ h1 {
 ul {
     list-style: none;
 }
-img {
+footer {
+    background-color: #dfdfdf;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 0.5rem 0 0.5rem 0;
+    flex-shrink: 0;
+    border-top: 0.01rem solid #9e9e9e;
+}
+footer img {
     display: block;
     margin: auto;
 }
-footer {
-    text-align: center;
-    margin: 3rem 0 0.5rem 0;
-    flex-shrink: 0;
+.img-bio {
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }
 .nav-grid {
     display: grid;
@@ -45,12 +60,29 @@ footer {
 }
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
+.footer-name {
+    margin-left: 15%;
+    align-self: center;
+    justify-self: start;
+}
+.footer-icons {
+    margin-right: 15%;
+    justify-self: end;
+}
 .footer-grid img {
     width: 32px;
     height: 32px;
+}
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.project-info {
+}
+.project-screenshot {
 }
