@@ -132,6 +132,39 @@ footer img {
     margin-top: 1rem;
     text-align: center;
 }
+.contact-info-description {
+    margin: 1rem auto 2rem auto;
+}
+.resume-job {
+    margin: 2rem auto 3rem auto;
+}
+.resume-job-header-container {
+    display: flex;
+    flex-direction: column;
+}
+.resume-job-title {
+
+}
+.resume-job-company {
+    
+}
+.resume-job-location {
+    
+}
+.resume-job-dates {
+    
+}
+.resume-job-title-company-container {
+    margin-bottom: 0.5rem;
+}
+.resume-job-description {
+    margin-top: 1rem;
+}
+.resume-job-description li {
+    margin: 0.5rem auto 0.5rem auto;
+}
+
+
 @media screen and (min-width: 768px) {
     .bio-container {
         display: flex;
@@ -168,6 +201,16 @@ footer img {
     .project-description-links-container {
         display: flex;
         flex-direction: column;
+    }
+    .contact-info-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .resume-job-header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
