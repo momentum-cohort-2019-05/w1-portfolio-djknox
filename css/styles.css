@@ -55,22 +55,15 @@ footer img {
     display: flex;
     flex-direction: column;
 }
-@media screen and (min-width: 768px) {
-    .bio-container {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .bio-links-container {
-        float: clear;
-    }
-}
 .bio-greeting-container {
     text-align: center;
 }
 .bio-img-container {
 
+}
+.bio-img-container img {
+    border: 0.01rem solid #a1d1f8;
+    border-radius: 10%;
 }
 .bio-info {
     margin-left: 3rem;
@@ -140,6 +133,22 @@ footer img {
     text-align: center;
 }
 @media screen and (min-width: 768px) {
+    .bio-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bio-greeting-container {
+        margin: auto 2rem auto 2rem;
+    }
+    .bio-img-container img {
+        border: 0.01rem solid #a1d1f8;
+        border-radius: 50%;
+    }
+    .bio-links-container {
+        margin-top: 3rem;
+    }
     .project-grid {
         display: flex;
         flex-direction: column;
