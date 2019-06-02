@@ -24,6 +24,9 @@ main {
     flex: 1 0 auto;
     margin: 0 3rem 0 3rem;
 }
+img {
+    max-width: 100%;
+}
 a {
     text-decoration: none;
 }
@@ -46,10 +49,47 @@ footer img {
     display: block;
     margin: auto;
 }
-.img-bio {
+.bio-container {
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    .bio-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bio-links-container {
+        float: clear;
+    }
+}
+.bio-greeting-container {
+    text-align: center;
+}
+.bio-img-container {
+
+}
+.bio-info {
+    margin-left: 3rem;
+}
+.bio-img {
     display: block;
-    margin: auto;
+    margin: 1rem auto 1rem auto;
     max-width: 100%;
+}
+.bio-links-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+.bio-links-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bio-link {
+    margin: 1rem 1rem 0 0;
 }
 .nav-grid {
     display: grid;
@@ -86,3 +126,10 @@ footer img {
 }
 .project-screenshot {
 }
+
+
+/* TODO: add media query breakpoints
+— phones: < 768px
+— tablets: >= 768px
+— desktops: >= 992px
+— big desktops: >= 1200px */
